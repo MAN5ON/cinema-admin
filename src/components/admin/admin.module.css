@@ -1,0 +1,17 @@
+.open button {
+    background-color: #afafaf!important;
+    border: 0;
+}
+
+.headerAdmin {
+    background-color: cornflowerblue!important;
+}
+.admin button {
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    font-family: Verdana;
+    background-color: #ffffff;
+    border:0;
+}

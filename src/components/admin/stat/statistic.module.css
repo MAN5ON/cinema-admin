@@ -1,0 +1,39 @@
+.stat {
+    text-align: center;
+    font-size: 14px;
+    font-family: Verdana;
+
+    display: grid;
+    grid-template-areas: 'menu graph'
+                         'graph2 graph2';
+    grid-template-columns: 1fr 1fr;
+}
+
+.stat button {
+    background-color: #afafaf;
+}
+.menu li {
+    list-style-type: none;
+    margin-left: 40%;
+    text-align: justify !important;
+}
+
+.menu {
+    grid-area: menu;
+    text-align: center;
+}
+
+.graph {
+    grid-area: graph;
+}
+
+.graph2 {
+    grid-area: graph2;
+}
+
+.graph img {
+    padding: 10px;
+    object-fit: scale-down;
+    height: 450px
+}
+

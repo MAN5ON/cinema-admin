@@ -1,0 +1,68 @@
+.discount {
+    text-align: center;
+    font-size: 14px;
+    font-family: Verdana;
+
+    display: grid;
+    grid-template-areas: 'menu list';
+    grid-template-columns: 1fr 0.7fr;
+}
+
+.discount button {
+    background-color: #afafaf;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.list {
+    grid-area: list;
+    padding-right: 10px;
+}
+
+.table_header, .table_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table span {
+    text-align: center;
+    display: block;
+    width: 18%;
+}
+
+.table_item {
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.table_item:hover{
+    background-color: gainsboro;
+}
+
+.table_body {
+    height: 300px;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+
+.table_body::-webkit-scrollbar {
+    width: 2px;
+}
+
+.table_body::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+
+.delete {
+    background-color: #afafaf;
+}
